@@ -1,3 +1,4 @@
+/* FIRST SEARCH BOX */
 .searchbox-one {
     display: flex;
     justify-content: center;
@@ -28,6 +29,7 @@
     outline: none;
 }
 
+/* SECOND SEARCH BOX */
 .searchbox-two {
     display: flex;
     justify-content: center;
@@ -53,6 +55,7 @@
     border: none;
 }
 
+/* THIRD SEARCH BOX */
 .searchbox-three {
     display: flex;
     justify-content: center;
