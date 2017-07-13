@@ -26,3 +26,23 @@
     border: none;
     outline: none;
 }
+
+::-webkit-input-placeholder { 
+    padding-left: 4px;
+    font-size: 14px;
+}
+
+::-moz-placeholder { 
+    padding-left: 4px;
+    font-size: 14px;
+} /* firefox 19+ */
+
+:-ms-input-placeholder { 
+    padding-left: 4px;
+    font-size: 14px; 
+} /* ie */
+
+input:-moz-placeholder { 
+    padding-left: 4px;
+    font-size: 14px; 
+}
