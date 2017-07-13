@@ -1,20 +1,21 @@
-.searchbox {
+.searchbox-one {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 300px;
 }
 
-.search {
+.search-one {
     border-radius: 9px;
     border-width: 1px;
     border-color: slategray;
     width: 400px;
     height: 30px;
     outline: none;
+    text-indent: 8px;
 }
 
-.submit {
+.submit-one {
     border-top-right-radius: 9px;
     border-bottom-right-radius: 9px;
     height: 34px;
@@ -28,21 +29,21 @@
 }
 
 ::-webkit-input-placeholder { 
-    padding-left: 4px;
+    /*padding-left: 4px;*/
     font-size: 14px;
 }
 
 ::-moz-placeholder { 
-    padding-left: 4px;
+    /*padding-left: 4px;*/
     font-size: 14px;
 } /* firefox 19+ */
 
 :-ms-input-placeholder { 
-    padding-left: 4px;
+    /*padding-left: 4px;*/
     font-size: 14px; 
 } /* ie */
 
 input:-moz-placeholder { 
-    padding-left: 4px;
+    /*padding-left: 4px;*/
     font-size: 14px; 
 }
