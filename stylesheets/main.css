@@ -53,6 +53,32 @@
     border: none;
 }
 
+.searchbox-three {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.search-three {
+    width: 400px;
+    height: 30px;
+    border-width: 1px;
+    border-color: slategray;
+    text-indent: 8px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+
+.fa {
+    display: flex;
+    /*border: 1px solid black;*/
+    margin-left: -30px;
+    color: #4286f4;
+}
+
+
 ::-webkit-input-placeholder { 
     /*padding-left: 4px;*/
     font-size: 14px;
