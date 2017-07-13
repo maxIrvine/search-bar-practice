@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 300px;
+    margin-top: 250px;
 }
 
 .search-one {
@@ -26,6 +26,31 @@
     font-family: Helvetica, Arial, san-serif;
     border: none;
     outline: none;
+}
+
+.searchbox-two {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.search-two {
+    width: 350px;
+    height: 30px;
+    outline: none;
+    border-color: slategray;
+    border-right: none;
+    border-width: 1px;
+    text-indent: 8px;
+}
+
+.submit-two {
+    outline: none;
+    background-color: #5ac476;
+    color: white;
+    border-width: 1px;
+    font-size: 13px;
+    border: none;
 }
 
 ::-webkit-input-placeholder { 
